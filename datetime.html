@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Date n Time</title>
+</head>
+<body>
+    <p id="test">Date & Time Check</p>
+    <p id="default"></p>
+    <p id="date"></p>
+    <p id="time"></p>
+
+    <script>
+    <!--
+        function printTime() {
+			var now = new Date();
+			document.getElementById("default").innerHTML = now;
+				
+			var date = now.getDate();
+			var month = now.getMonth();
+			var year = now.getFullYear();
+			var dayname = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+			document.getElementById("date").innerHTML = (dayname[now.getDay()]+", "+date+"-"+month+"-"+year);
+			
+			var hr = now.getHours();
+			var min = now.getMinutes();
+			var sec = now.getSeconds();
+			document.getElementById("time").innerHTML = (hr+" : "+min+" : "+sec);
+		}
+			
+		setInterval("printTime()", 1000);
+    -->
+    </script>
+
+    <noscript>
+		<p>This page requires javascript enabled.</p>
+	</noscript>
+</body>
+</html>
